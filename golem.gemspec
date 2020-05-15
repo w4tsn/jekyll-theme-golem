@@ -1,7 +1,7 @@
 # coding: utf-8
 
 Gem::Specification.new do |spec|
-  spec.name          = "golem"
+  spec.name          = "jekyll-theme-golem"
   spec.version       = "0.1.0"
   spec.authors       = ["Alexander Wellbrock"]
   spec.email         = ["a.wellbrock@mailbox.org"]
