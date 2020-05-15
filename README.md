@@ -1,10 +1,6 @@
-# Tale
+# Golem
 
-[![Gem Version](https://badge.fury.io/rb/tale.svg)](https://badge.fury.io/rb/tale)
-
-Tale is a minimal Jekyll theme curated for storytellers. Checkout the demo [here](https://chesterhow.github.io/tale/).
-
-![Tale screenshot](http://i.imgur.com/pXZrtmo.png)
+Golem is a compositum Jekyll theme created from other astonishing themes and designs. Checkout the demo [here](https://w4tsn.github.io/golem/).
 
 ## Features
 - Easy installation
@@ -13,7 +9,6 @@ Tale is a minimal Jekyll theme curated for storytellers. Checkout the demo [here
 - Syntax highlighting, with the help of Pygments
 - Markdown and HTML text formatting
 - Pagination of posts
-- [Disqus comments (can be enabled if needed)](#enabling-comments)
 
 ## Installation
 There are 3 ways to install this theme
@@ -26,7 +21,7 @@ There are 3 ways to install this theme
 1. Add this line to your `Gemfile`:
 
 ```ruby
-gem "tale"
+gem "golem"
 ```
 
 2. Install the theme's gems and dependencies:
@@ -38,7 +33,7 @@ $ bundle
 3. In `_config.yml` add these lines:
 
 ```yaml
-theme:      tale
+theme:      golem
 
 permalink:  /:year-:month-:day/:title
 paginate:   5
@@ -71,7 +66,7 @@ $ bundle
 3. In `_config.yml` add these lines:
 
 ```yaml
-remote_theme: chesterhow/tale
+remote_theme: w4tsn/jekyll-theme-golem
 
 permalink:    /:year-:month-:day/:title
 paginate:     5
@@ -94,12 +89,12 @@ layout: post
 ### Fork method
 1. Fork this repository
 
-2. Delete the unnecessary files/folders: `CODE_OF_CONDUCT.md`, `LICENSE`, `README.md`, `tale.gemspec`
+2. Delete the unnecessary files/folders: `CODE_OF_CONDUCT.md`, `LICENSE`, `README.md`, `golem.gemspec`
 
 3. Delete the `baseurl` line in `_config.yml`:
 
 ```yaml
-baseurl:  "/tale"   # delete this line
+baseurl:  "/golem"   # delete this line
 ```
 
 ## Usage
@@ -113,17 +108,26 @@ $ bundle exec jekyll serve
 
 And you're all set! Head over to http://127.0.0.1:4000/ to see your site in action.
 
-### Enabling Comments
-Comments are disabled by default. To enable them, look for the following line in `_config.yml` and change `jekyll-tale` to your site's Disqus id.
+## Contributing
+Found a bug or have a suggestion? Feel free to create an [issue](https://gitlab.com/w4tsn/jekyll-theme-golem/issues) or make a [pull request](https://gitlab.com/w4tsn/jekyll-theme-golem/pulls)!
 
-```yml
-disqus: jekyll-tale
+### Development
+
+#### podman method
+
+For a full development setup with the page served on localhost:4000 on Fedora 31+ use:
+
+```bash
+$ sudo podman run --user=root --rm --volume="/home/w4tsn/Code/tale:/srv/jekyll" -it -p 4000:4000 --security-opt label=disable jekyll/jekyll bash
+bash# jekyll serve
+bash# jekyll serve --incremental
 ```
 
-Next, add `comments: true` to the YAML front matter of the posts which you would like to enable comments for.
-
-## Contributing
-Found a bug or have a suggestion? Feel free to create an issue or make a pull request!
-
 ## License
-See [LICENSE](https://github.com/chesterhow/tale/blob/master/LICENSE)
+See [LICENSE](https://gitlab.com/w4tsn/jekyll-theme-golem/blob/master/LICENSE)
+
+## Attribution
+
+Since this is a composition theme by design, lending lot's of code and features from all over the place, this section is for attribution of all the great creators.
+
+First of all there is the [Golem Theme by Alexander Wellbrock](https://w4tsn.github.io/golem/), which is the foundation of this compositum.

@@ -1,17 +1,14 @@
 # Site settings
-title:          Tale
-description:    "Minimal Jekyll theme for storytellers"
-baseurl:        "/tale"
-url:            "https://chesterhow.github.io"
-
-# Google Analytics
-google_analytics: UA—XXXXXXXX-X
+title:          Golem
+description:    "Every alchemist needs a golem."
+baseurl:        "/golem"
+url:            "https://openalchem.ist"
 
 # Author
 author:
-  name:         Chester How
-  url:          https://chester.how
-  email:        chesterhow@gmail.com
+  name:         Alexander Wellbrock
+  url:          https://openalchem.ist
+  email:        a.wellbrock@mailbox.org
 
 # Build settings
 markdown:       kramdown
@@ -35,7 +32,7 @@ permalink:      /:year-:month-:day/:title
 paginate:       5
 
 # Excludes
-exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
+exclude: [ Gemfile, Gemfile.lock, golem.gemspec ]
 
 # Disqus (Set to your disqus id)
-disqus:         jekyll-tale
+disqus:         jekyll-golem

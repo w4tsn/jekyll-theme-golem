@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Example Content"
-author: "Chester"
+author: "w4tsn"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tincidunt ornare nibh, non elementum augue tempus eget. Pellentesque tempus scelerisque iaculis. Nullam interdum ultricies nibh quis sollicitudin. Donec ornare fermentum facilisis. Ut at sem ac sem imperdiet varius a eget tortor. Nam eu augue eget orci semper maximus in eget augue. Mauris ornare, nisl ut suscipit consectetur, mi quam interdum tellus, at rutrum quam eros ultrices mi.
@@ -32,7 +32,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tincidunt orna
 - <sup>Superscript</sup>
 - <sub>Subscript</sub>
 - Abbreviation: <abbr title="HyperText Markup Language">HTML</abbr>
-- Citation: <cite>&mdash; Chester How</cite>
+- Citation: <cite>&mdash; Alexander Wellbrock</cite>
 {% endhighlight %}
 
 - **Bold**
@@ -42,7 +42,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tincidunt orna
 - <sup>Superscript</sup>
 - <sub>Subscript</sub>
 - Abbreviation: <abbr title="HyperText Markup Language">HTML</abbr>
-- Citation: <cite>&mdash; Chester How</cite>
+- Citation: <cite>&mdash; Alexander Wellbrock</cite>
 
 # Lists
 {% highlight markdown %}
@@ -65,10 +65,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tincidunt orna
 
 # Links
 {% highlight markdown %}
-Check out tale on [GitHub](https://github.com/chesterhow/tale).
+Check out golem on [GitHub](https://gitlab.com/w4tsn/jekyll-theme-golem).
 {% endhighlight %}
 
-Check out tale on [GitHub](https://github.com/chesterhow/tale).
+Check out golem on [GitHub](https://gitlab.com/w4tsn/jekyll-theme-golem).
 
 # Images
 {% highlight markdown %}
