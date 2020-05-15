@@ -131,3 +131,5 @@ See [LICENSE](https://gitlab.com/w4tsn/jekyll-theme-golem/blob/master/LICENSE)
 Since this is a composition theme by design, lending lot's of code and features from all over the place, this section is for attribution of all the great creators.
 
 First of all there is the [Golem Theme by Alexander Wellbrock](https://w4tsn.github.io/golem/), which is the foundation of this compositum.
+
+The Project Icon is made by by [Freepik](https://www.flaticon.com/authors/freepik) from www.flaticon.com.
