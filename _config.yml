@@ -3,6 +3,7 @@ title:          Golem
 description:    "Every alchemist needs a golem."
 baseurl:        "/golem"
 url:            "https://openalchem.ist"
+newsurl:        "https://openalchem.ist/news"
 
 # Author
 author:
@@ -28,8 +29,8 @@ plugins:
   # - jemoji #Uncomment this to allow emoji in your post
 
 # Permalinks
-permalink:      /:year-:month-:day/:title
-paginate:       5
+permalink:      /essays/:title
+paginate:       7
 
 # Excludes
 exclude: [ Gemfile, Gemfile.lock, golem.gemspec, project-icon.png ]
