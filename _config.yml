@@ -15,6 +15,7 @@ author:
 markdown:       kramdown
 include:
   - _pages
+highlighter:    rouge
 
 # Assets
 sass:
