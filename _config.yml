@@ -33,6 +33,3 @@ paginate:       5
 
 # Excludes
 exclude: [ Gemfile, Gemfile.lock, golem.gemspec, project-icon.png ]
-
-# Disqus (Set to your disqus id)
-disqus:         jekyll-golem
